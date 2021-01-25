@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "curso-react",
+  "alias": "curso-react",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [{
+    "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+    },
+    "src": "/.*", "dest": "index.js" }
+  ]
+}

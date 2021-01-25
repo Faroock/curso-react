@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "name": "curso-react-avanzado",
+  "version": 2,
+  "name": "curso-react",
   "alias": "curso-react",
   "builds": [
     {
